@@ -2,11 +2,9 @@
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix = "c" %>
 <c:url value = "/view/client/assets" var="url"/>
 
-  <!-- Start header section -->
+
   <jsp:include page = "./header/mainHeader.jsp" flush = "true" />
-  <!-- / header section -->
-<!--  content -->
- <!-- catg header banner section -->
+
   <section id="aa-catg-head-banner">
   <img src="${pageContext.request.contextPath}/view/client/assets/images/archive-banner.png" alt="banner blog">
     <div class="aa-catg-head-banner-area">
@@ -21,9 +19,7 @@
      </div>
    </div>
   </section>
-  <!-- / catg header banner section -->
 
- <!-- Cart view section -->
  <section id="aa-myaccount">
    <div class="container">
      <div class="row">
