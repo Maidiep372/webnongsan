@@ -19,8 +19,7 @@
      </div>
    </div>
   </section>
-  <!-- / catg header banner section -->
- <!-- Cart view section -->
+
  <section id="aa-myaccount">
    <div class="container">
      <div class="row">
