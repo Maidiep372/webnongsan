@@ -1,4 +1,4 @@
-package controller;
+package nongsan.webmvc.controller;
 
 import java.io.IOException;
 
@@ -10,12 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import dao.impl.LoginDao;
-import model.User;
+import nongsan.webmvc.dao.impl.LoginDao;
+import nongsan.webmvc.model.User;
 
-/**
- * Servlet implementation class LoginController
- */
+
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	public LoginController() {
